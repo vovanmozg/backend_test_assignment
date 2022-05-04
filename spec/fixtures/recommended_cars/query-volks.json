@@ -1,0 +1,35 @@
+[
+  {
+    "id": 179,
+    "brand": {
+      "id": 39,
+      "name": "Volkswagen"
+    },
+    "model": "Derby",
+    "price": 37230,
+    "rank_score": 0.945,
+    "label": "perfect_match"
+  },
+  {
+    "id": 180,
+    "brand": {
+      "id": 39,
+      "name": "Volkswagen"
+    },
+    "model": "e-Golf",
+    "price": 35131,
+    "rank_score": 0.567,
+    "label": "perfect_match"
+  },
+  {
+    "id": 181,
+    "brand": {
+      "id": 39,
+      "name": "Volkswagen"
+    },
+    "model": "Amarok",
+    "price": 31743,
+    "rank_score": null,
+    "label": "good_match"
+  }
+]

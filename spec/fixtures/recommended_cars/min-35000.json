@@ -1,0 +1,222 @@
+[
+  {
+    "id": 179,
+    "model": "Derby",
+    "price": 37230,
+    "rank_score": 0.945,
+    "label": "perfect_match",
+    "brand": {
+      "id": 39,
+      "name": "Volkswagen"
+    }
+  },
+  {
+    "id": 180,
+    "model": "e-Golf",
+    "price": 35131,
+    "rank_score": 0.567,
+    "label": "perfect_match",
+    "brand": {
+      "id": 39,
+      "name": "Volkswagen"
+    }
+  },
+  {
+    "id": 5,
+    "model": "Arna",
+    "price": 39938,
+    "rank_score": 0.4552,
+    "label": "perfect_match",
+    "brand": {
+      "id": 2,
+      "name": "Alfa Romeo"
+    }
+  },
+  {
+    "id": 186,
+    "model": "Brera",
+    "price": 40938,
+    "rank_score": 0.7068,
+    "label": "good_match",
+    "brand": {
+      "id": 2,
+      "name": "Alfa Romeo"
+    }
+  },
+  {
+    "id": 97,
+    "model": "IS 220",
+    "price": 39858,
+    "rank_score": 0.9489,
+    "label": null,
+    "brand": {
+      "id": 20,
+      "name": "Lexus"
+    }
+  },
+  {
+    "id": 103,
+    "model": "Eclat",
+    "price": 48953,
+    "rank_score": 0.4729,
+    "label": null,
+    "brand": {
+      "id": 22,
+      "name": "Lotus"
+    }
+  },
+  {
+    "id": 65,
+    "model": "Cordoba",
+    "price": 36350,
+    "rank_score": null,
+    "label": null,
+    "brand": {
+      "id": 11,
+      "name": "Fiat"
+    }
+  },
+  {
+    "id": 176,
+    "model": "Kizashi",
+    "price": 40181,
+    "rank_score": 0.0353,
+    "label": null,
+    "brand": {
+      "id": 37,
+      "name": "Suzuki"
+    }
+  },
+  {
+    "id": 185,
+    "model": "FS",
+    "price": 40300,
+    "rank_score": null,
+    "label": null,
+    "brand": {
+      "id": 40,
+      "name": "Volvo"
+    }
+  },
+  {
+    "id": 50,
+    "model": "200",
+    "price": 40359,
+    "rank_score": null,
+    "label": null,
+    "brand": {
+      "id": 9,
+      "name": "Chrysler"
+    }
+  },
+  {
+    "id": 177,
+    "model": "Allion",
+    "price": 40687,
+    "rank_score": 0.1657,
+    "label": null,
+    "brand": {
+      "id": 38,
+      "name": "Toyota"
+    }
+  },
+  {
+    "id": 159,
+    "model": "96",
+    "price": 42341,
+    "rank_score": null,
+    "label": null,
+    "brand": {
+      "id": 33,
+      "name": "Saab"
+    }
+  },
+  {
+    "id": 9,
+    "model": "S5",
+    "price": 42941,
+    "rank_score": null,
+    "label": null,
+    "brand": {
+      "id": 3,
+      "name": "Audi"
+    }
+  },
+  {
+    "id": 59,
+    "model": "1500",
+    "price": 43102,
+    "rank_score": null,
+    "label": null,
+    "brand": {
+      "id": 11,
+      "name": "Fiat"
+    }
+  },
+  {
+    "id": 155,
+    "model": "900",
+    "price": 43626,
+    "rank_score": null,
+    "label": null,
+    "brand": {
+      "id": 33,
+      "name": "Saab"
+    }
+  },
+  {
+    "id": 83,
+    "model": "i40",
+    "price": 43949,
+    "rank_score": null,
+    "label": null,
+    "brand": {
+      "id": 15,
+      "name": "Hyundai"
+    }
+  },
+  {
+    "id": 20,
+    "model": "M",
+    "price": 44125,
+    "rank_score": null,
+    "label": null,
+    "brand": {
+      "id": 4,
+      "name": "BMW"
+    }
+  },
+  {
+    "id": 115,
+    "model": "323",
+    "price": 45092,
+    "rank_score": null,
+    "label": null,
+    "brand": {
+      "id": 24,
+      "name": "Mazda"
+    }
+  },
+  {
+    "id": 60,
+    "model": "131",
+    "price": 46777,
+    "rank_score": null,
+    "label": null,
+    "brand": {
+      "id": 11,
+      "name": "Fiat"
+    }
+  },
+  {
+    "id": 85,
+    "model": "QX60",
+    "price": 47520,
+    "rank_score": null,
+    "label": null,
+    "brand": {
+      "id": 16,
+      "name": "Infiniti"
+    }
+  }
+]

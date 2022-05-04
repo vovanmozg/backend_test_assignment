@@ -1,0 +1,68 @@
+[
+  {
+    "id": 52,
+    "model": "Avenger",
+    "price": 52452,
+    "rank_score": null,
+    "label": null,
+    "brand": {
+      "id": 9,
+      "name": "Chrysler"
+    }
+  },
+  {
+    "id": 48,
+    "model": "Daytona Shelby",
+    "price": 64723,
+    "rank_score": null,
+    "label": null,
+    "brand": {
+      "id": 9,
+      "name": "Chrysler"
+    }
+  },
+  {
+    "id": 46,
+    "model": "300 S",
+    "price": 74355,
+    "rank_score": null,
+    "label": null,
+    "brand": {
+      "id": 9,
+      "name": "Chrysler"
+    }
+  },
+  {
+    "id": 43,
+    "model": "Master",
+    "price": 80340,
+    "rank_score": null,
+    "label": null,
+    "brand": {
+      "id": 8,
+      "name": "Chevrolet"
+    }
+  },
+  {
+    "id": 45,
+    "model": "LHS",
+    "price": 81530,
+    "rank_score": null,
+    "label": null,
+    "brand": {
+      "id": 9,
+      "name": "Chrysler"
+    }
+  },
+  {
+    "id": 44,
+    "model": "Simca",
+    "price": 82714,
+    "rank_score": null,
+    "label": null,
+    "brand": {
+      "id": 9,
+      "name": "Chrysler"
+    }
+  }
+]

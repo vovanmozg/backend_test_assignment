@@ -40,7 +40,8 @@ group :development do
 end
 
 group :test do
-  gem 'rspec', '~> 3.11'
+  gem 'database_cleaner-active_record', '~> 2.0' # prepare db for tests
+  gem 'factory_bot_rails', '~> 6.2' # prepare factories framework
   gem 'rspec-rails', '~> 5.1'
   gem 'webmock', '~> 3.14' # mock http requests
 end

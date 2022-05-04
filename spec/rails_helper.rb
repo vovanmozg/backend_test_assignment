@@ -21,9 +21,15 @@ end
 RSpec.configure do |config|
   config.include ApiHelpers
   config.include FixturesHelper
+  config.include FactoryBot::Syntax::Methods
 
   config.fixture_path = "#{::Rails.root}/spec/fixtures"
   config.infer_spec_type_from_file_location!
+
+  config.before(:suite) do
+    DatabaseCleaner.clean_with :truncation, except: %w[ar_internal_metadata]
+    Rails.application.load_seed
+  end
 
   # config.filter_rails_from_backtrace!
   # config.filter_gems_from_backtrace("gem name")

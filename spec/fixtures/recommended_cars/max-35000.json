@@ -1,0 +1,222 @@
+[
+  {
+    "id": 181,
+    "model": "Amarok",
+    "price": 31743,
+    "rank_score": null,
+    "label": "good_match",
+    "brand": {
+      "id": 39,
+      "name": "Volkswagen"
+    }
+  },
+  {
+    "id": 113,
+    "model": "3",
+    "price": 1542,
+    "rank_score": null,
+    "label": null,
+    "brand": {
+      "id": 24,
+      "name": "Mazda"
+    }
+  },
+  {
+    "id": 100,
+    "model": "RX 300",
+    "price": 1972,
+    "rank_score": null,
+    "label": null,
+    "brand": {
+      "id": 20,
+      "name": "Lexus"
+    }
+  },
+  {
+    "id": 184,
+    "model": "610",
+    "price": 3560,
+    "rank_score": null,
+    "label": null,
+    "brand": {
+      "id": 40,
+      "name": "Volvo"
+    }
+  },
+  {
+    "id": 142,
+    "model": "Promaster City",
+    "price": 3687,
+    "rank_score": null,
+    "label": null,
+    "brand": {
+      "id": 31,
+      "name": "Ram"
+    }
+  },
+  {
+    "id": 120,
+    "model": "Marauder",
+    "price": 3990,
+    "rank_score": null,
+    "label": null,
+    "brand": {
+      "id": 26,
+      "name": "Mercury"
+    }
+  },
+  {
+    "id": 109,
+    "model": "Levante",
+    "price": 4243,
+    "rank_score": null,
+    "label": null,
+    "brand": {
+      "id": 23,
+      "name": "Maserati"
+    }
+  },
+  {
+    "id": 89,
+    "model": "M25",
+    "price": 4372,
+    "rank_score": null,
+    "label": null,
+    "brand": {
+      "id": 16,
+      "name": "Infiniti"
+    }
+  },
+  {
+    "id": 164,
+    "model": "Forfour",
+    "price": 4391,
+    "rank_score": null,
+    "label": null,
+    "brand": {
+      "id": 35,
+      "name": "Smart"
+    }
+  },
+  {
+    "id": 81,
+    "model": "Pilot",
+    "price": 4473,
+    "rank_score": null,
+    "label": null,
+    "brand": {
+      "id": 14,
+      "name": "Honda"
+    }
+  },
+  {
+    "id": 182,
+    "model": "265",
+    "price": 5208,
+    "rank_score": null,
+    "label": null,
+    "brand": {
+      "id": 40,
+      "name": "Volvo"
+    }
+  },
+  {
+    "id": 54,
+    "model": "Ramcharger",
+    "price": 5425,
+    "rank_score": null,
+    "label": null,
+    "brand": {
+      "id": 10,
+      "name": "Dodge"
+    }
+  },
+  {
+    "id": 108,
+    "model": "Coupe",
+    "price": 5508,
+    "rank_score": null,
+    "label": null,
+    "brand": {
+      "id": 23,
+      "name": "Maserati"
+    }
+  },
+  {
+    "id": 86,
+    "model": "M37",
+    "price": 5698,
+    "rank_score": 0.2183,
+    "label": null,
+    "brand": {
+      "id": 16,
+      "name": "Infiniti"
+    }
+  },
+  {
+    "id": 96,
+    "model": "SC 300",
+    "price": 6297,
+    "rank_score": null,
+    "label": null,
+    "brand": {
+      "id": 20,
+      "name": "Lexus"
+    }
+  },
+  {
+    "id": 92,
+    "model": "Towner",
+    "price": 6526,
+    "rank_score": null,
+    "label": null,
+    "brand": {
+      "id": 19,
+      "name": "Kia"
+    }
+  },
+  {
+    "id": 35,
+    "model": "Riviera",
+    "price": 6847,
+    "rank_score": null,
+    "label": null,
+    "brand": {
+      "id": 6,
+      "name": "Buick"
+    }
+  },
+  {
+    "id": 98,
+    "model": "GS 200",
+    "price": 7477,
+    "rank_score": null,
+    "label": null,
+    "brand": {
+      "id": 20,
+      "name": "Lexus"
+    }
+  },
+  {
+    "id": 165,
+    "model": "WRX STI Sedan",
+    "price": 9315,
+    "rank_score": null,
+    "label": null,
+    "brand": {
+      "id": 36,
+      "name": "Subaru"
+    }
+  },
+  {
+    "id": 127,
+    "model": "Juke",
+    "price": 9434,
+    "rank_score": null,
+    "label": null,
+    "brand": {
+      "id": 28,
+      "name": "Nissan"
+    }
+  }
+]
