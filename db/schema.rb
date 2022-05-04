@@ -10,10 +10,20 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_06_17_121316) do
+ActiveRecord::Schema.define(version: 2022_04_23_051815) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "ai_results", force: :cascade do |t|
+    t.bigint "car_id", null: false
+    t.bigint "user_id", null: false
+    t.float "rank_score"
+    t.boolean "top"
+    t.datetime "created_at", default: -> { "now()" }, null: false
+    t.index ["car_id"], name: "index_ai_results_on_car_id"
+    t.index ["user_id"], name: "index_ai_results_on_user_id"
+  end
 
   create_table "brands", force: :cascade do |t|
     t.string "name"
@@ -46,6 +56,8 @@ ActiveRecord::Schema.define(version: 2021_06_17_121316) do
     t.datetime "updated_at", precision: 6, null: false
   end
 
+  add_foreign_key "ai_results", "cars"
+  add_foreign_key "ai_results", "users"
   add_foreign_key "cars", "brands"
   add_foreign_key "user_preferred_brands", "brands"
   add_foreign_key "user_preferred_brands", "users"
