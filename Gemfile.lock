@@ -74,6 +74,10 @@ GEM
       rexml
     crass (1.0.6)
     diff-lcs (1.5.0)
+    dotenv (2.7.6)
+    dotenv-rails (2.7.6)
+      dotenv (= 2.7.6)
+      railties (>= 3.2)
     erubi (1.10.0)
     excon (0.92.3)
     ffi (1.15.3)
@@ -217,6 +221,7 @@ DEPENDENCIES
   awesome_print (~> 1.9)
   bootsnap (>= 1.4.4)
   byebug
+  dotenv-rails (~> 2.7)
   excon (~> 0.92.3)
   listen (~> 3.3)
   pg (~> 1.1)

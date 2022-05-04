@@ -27,6 +27,7 @@ group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'awesome_print', '~> 1.9' # beautiful print objects
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw] # for debug
+  gem 'dotenv-rails', '~> 2.7' # autoload .env
   gem 'pry-byebug', '~> 3.9' # for debug
 end
 
