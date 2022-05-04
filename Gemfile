@@ -32,6 +32,8 @@ group :development, :test do
 end
 
 group :development do
+  gem 'brakeman', '~> 5.2'
+  gem 'bundle-audit', '~> 0.1.0'
   gem 'listen', '~> 3.3'
   gem 'rubocop', '~> 1.28' # linting
   gem 'rubocop-rails', '~> 2.14' # linting
