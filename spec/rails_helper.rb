@@ -22,15 +22,11 @@ RSpec.configure do |config|
   config.include ApiHelpers
   config.include FixturesHelper
 
-  # Remove this line if you're not using ActiveRecord or ActiveRecord fixtures
   config.fixture_path = "#{::Rails.root}/spec/fixtures"
-
-  # config.use_transactional_fixtures = true
-
-  # config.use_active_record = false
-
   config.infer_spec_type_from_file_location!
 
   # config.filter_rails_from_backtrace!
   # config.filter_gems_from_backtrace("gem name")
+  # config.use_transactional_fixtures = true
+  # config.use_active_record = false
 end
