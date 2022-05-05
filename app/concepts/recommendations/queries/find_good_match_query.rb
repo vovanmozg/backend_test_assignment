@@ -2,6 +2,7 @@
 
 module Recommendations
   module Queries
+    # Select good match results
     class FindGoodMatchQuery
       def self.call(brands, preferred_brands, price_range, preferred_price_range, user, limit, offset)
         join_sql = ActiveRecord::Base.sanitize_sql(%(LEFT JOIN "ai_results"

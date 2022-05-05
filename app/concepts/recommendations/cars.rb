@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 module Recommendations
+  # Implements recommendation business logic
   class Cars
     DEFAULT_PAGE_SIZE = 20
 
@@ -42,7 +43,7 @@ module Recommendations
 
       # Break if there are enough results for current page
       return nil if got_current_page_count == page_size
-      return 0 if got_current_page_count > 0
+      return 0 if got_current_page_count.positive?
 
       # If items of current type have not selected on current page, then
       # perhaps they had displayed on the previous page. Lets calculate

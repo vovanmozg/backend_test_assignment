@@ -1,5 +1,6 @@
 # frozen_string_literal: true
 
+# Preferable to use this helper to load fixtures
 module FixturesHelper
   FIXTURES_DIR = File.join('spec', 'fixtures')
 

@@ -2,6 +2,7 @@
 
 module Recommendations
   module Queries
+    # Selected results from recommendation service
     class FindAiQuery
       def self.call(brands, preferred_brands, user, price_range, limit, offset)
         query = Car.where.not(brand: preferred_brands)

@@ -5,7 +5,7 @@ module Recommendations
     # External API adapter
     class External
       def self.fetch(user_id)
-        url = "#{ENV['EXT_AI_SERVICE']}?user_id=#{user_id}"
+        url = "#{ENV.fetch('EXT_AI_SERVICE', nil)}?user_id=#{user_id}"
         response = Excon.get(url)
         JSON.parse(response.body)
 
