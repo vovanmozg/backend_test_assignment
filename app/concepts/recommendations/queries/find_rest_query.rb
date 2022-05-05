@@ -2,6 +2,7 @@
 
 module Recommendations
   module Queries
+    # Select results which was not included in other groups
     class FindRestQuery
       def self.call(preferred_brands, brands, user, price_range, limit, offset)
         query = Car.where.not(brand: preferred_brands)

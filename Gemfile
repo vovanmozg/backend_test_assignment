@@ -5,8 +5,8 @@ ruby '2.7.2'
 
 gem 'excon', '~> 0.92.3' # make http-request
 gem 'pg', '~> 1.1' # postgresql interface
-gem 'puma', '~> 5.0' # http-server
-gem 'rails', '~> 6.1.3', '>= 6.1.3.2'
+gem 'puma', '~> 5.6' # http-server
+gem 'rails', '~> 6.1.5', '>= 6.1.5.1'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 # gem 'jbuilder', '~> 2.7'
 # Use Redis adapter to run Action Cable in production
@@ -32,6 +32,8 @@ group :development, :test do
 end
 
 group :development do
+  gem 'brakeman', '~> 5.2'
+  gem 'bundle-audit', '~> 0.1.0'
   gem 'listen', '~> 3.3'
   gem 'rubocop', '~> 1.28' # linting
   gem 'rubocop-rails', '~> 2.14' # linting
