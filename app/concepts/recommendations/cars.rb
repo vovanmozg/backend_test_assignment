@@ -3,6 +3,8 @@
 module Recommendations
   # Implements recommendation business logic
   class Cars
+    # class ParamsError < ArgumentError; end
+
     DEFAULT_PAGE_SIZE = 20
 
     def initialize(page_size = DEFAULT_PAGE_SIZE)
@@ -141,7 +143,7 @@ module Recommendations
     def prepare_params(options)
       user_id = options.fetch(:user_id)
       user = User.where(id: user_id).first
-      raise StandardError 'baduser' if user.blank?
+      raise ArgumentError, I18n.t('recommendations.user_not_found') if user.blank?
 
       page = options.fetch(:page, 1).to_i
       brand_query = options.fetch(:query, nil)

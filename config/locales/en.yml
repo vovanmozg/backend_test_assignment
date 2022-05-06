@@ -30,4 +30,6 @@
 # available at https://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  recommendations:
+    user_not_found: "User not found"
+    bad_params: "Required parameter missing: %{name}"
