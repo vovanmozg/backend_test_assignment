@@ -23,29 +23,36 @@ module Recommendations
       append(results, :good_match, options)
       append(results, :ai, options)
       append(results, :rest, options)
-      results.sum { |group| group[:records] }.take(@page_size)
+      results.sum { |group| group[:records] }
     end
 
     # Each call appends results to array. Mutates results. Considers
     # existing records when generates new ones
     def append(results, strategy, options)
       offset = calculate_offset(results, options[:page], @page_size)
-      return [] if offset.nil?
+      # Stop gather data if there is already enough
+      return if offset.nil?
 
       # TODO: It would be better to set exact limit but not maximum
+      limit = calculate_limit(results)
+      # Stop gather data if there is already enough
+      return if limit == 0
+
+      records = send("find_#{strategy}", **options.merge(offset: offset, limit: limit))
       results << {
-        records: send("find_#{strategy}", **options.merge(offset: offset, limit: @page_size)),
+        records: records,
+        count_selected: records.size,
         count_all: send("find_#{strategy}_count_all", **options)
       }
     end
 
     def calculate_offset(results, page, page_size)
       # How many items of other type already selected
-      got_current_page_count = results.sum { |rec| rec[:records].size }
+      got_current_page_count = results.sum { |rec| rec[:count_selected] }
 
       # Break if there are enough results for current page
       return nil if got_current_page_count == page_size
-      return 0 if got_current_page_count.positive?
+      return 0 if got_current_page_count > 0
 
       # If items of current type have not selected on current page, then
       # perhaps they had displayed on the previous page. Lets calculate
@@ -57,6 +64,11 @@ module Recommendations
       skip_count = @page_size * (page - 1)
       # How many items of current type there are on previous pages
       skip_count - showed_prev_types_count
+    end
+
+    def calculate_limit(results)
+      got_current_page_count = results.sum { |rec| rec[:count_selected] }
+      @page_size - got_current_page_count
     end
 
     def find_perfect_match(params)
