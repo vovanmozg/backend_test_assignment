@@ -20,7 +20,7 @@ AllCops:
   NewCops: enable
 
 Metrics/AbcSize:
-  Max: 20
+  Max: 21
 
 Metrics/BlockLength:
   IgnoredMethods: ['context', 'define', 'describe', 'factory', 'let', 'shared_context', 'shared_examples']
